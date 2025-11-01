@@ -47,8 +47,6 @@ int main() {
     for (int i = 0; i < d; i++) {
         arr[n - d + i] = temp[i];
     }
-
-    // This is the line you asked for
     cout << "Array after left rotation: ";
 
     // This loop prints all the numbers
@@ -60,3 +58,4 @@ int main() {
     cout << endl;
     return 0;
 }
+
